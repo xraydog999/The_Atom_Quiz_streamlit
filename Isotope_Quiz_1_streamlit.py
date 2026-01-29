@@ -171,7 +171,7 @@ questions = [
     {
         "q": "If chlorine‑35 has 18 neutrons, how many neutrons does chlorine‑37 have?",
         "options": ["17", "18", "19", "20"],
-        "answer": "19",
+        "answer": "20",
         "explanation": "Chlorine‑37 has 2 more neutrons than chlorine‑35."
     },
     {
@@ -301,4 +301,5 @@ if st.button("Submit Quiz"):
         if st.button("Try Again"):
             st.session_state.clear()
             st.experimental_rerun()
+
 
