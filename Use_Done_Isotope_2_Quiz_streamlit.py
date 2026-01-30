@@ -31,23 +31,23 @@ questions = [
 
     {"image": "6.png", "q": "Using the figure above, identify the numbers of neutrons, protons, and electrons.", 
      "options": ["20, 19, 18", "19, 20, 19", "19, 39, 20"], 
-     "answer": "19, 39, 20"},
+     "answer": "20, 19, 18"},
 
     {"image": "7.png", "q": "Using the figure above, identify the numbers of neutrons, protons, and electrons.", 
      "options": ["73, 19, 30", "31, 42, 42", "42, 31, 31"], 
-     "answer": "73, 19, 30"},
+     "answer": "42, 31, 31"},
 
     {"image": "8.png", "q": "Using the figure above, identify the numbers of neutrons, protons and electrons.", 
      "options": ["73, 42, 45", "42, 73, 42", "42, 31, 28"], 
-     "answer": "42, 73, 42"},
+     "answer": "42, 31, 28"},
 
     {"image": "9.png", "q": "Using the figure above, identify the numbers of neutrons, proton and electrons.", 
      "options": ["51, 74, 71", "28, 23, 20", "23, 28, 28"], 
-     "answer": "23, 28, 28"},
+     "answer": "28, 23, 20"},
 
     {"image": "10.png", "q": "Using the figure above, identify the numbers of neutrons, proton and electrons.", 
      "options": ["52, 76, 78", "76, 52, 54", "76, 128, 2"], 
-     "answer": "52, 76, 78"},
+     "answer": "76, 52, 54"},
 ]
 
 # -----------------------------
@@ -123,3 +123,4 @@ if st.button("Submit Quiz"):
         if st.button("Try Again"):
             st.session_state.clear()
             st.experimental_rerun()
+
