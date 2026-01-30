@@ -76,7 +76,7 @@ questions = [
             "31, 42, 42",
             "42, 31, 31"
         ],
-        "answer": "31, 42, 42"   # b
+        "answer": "42, 31, 31"   # b
     },
     {
         "image": "8.png",
@@ -103,10 +103,10 @@ questions = [
         "q": "Using the figure above, identify the numbers of neutrons, protons and electrons.",
         "options": [
             "52, 76, 78",
-            "76, 52, 56",
+            "76, 52, 54",
             "76, 128, 2"
         ],
-        "answer": "52, 76, 78"   # a
+        "answer": "76, 52, 54"   # a
     }
 ]
 
@@ -171,3 +171,4 @@ if st.button("Submit Quiz"):
         if st.button("Try Again"):
             st.session_state.clear()
             st.experimental_rerun()
+
