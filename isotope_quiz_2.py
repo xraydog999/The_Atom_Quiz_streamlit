@@ -13,61 +13,61 @@ st.title("Image‑Based Multiple Choice Quiz")
 
 questions = [
     {
-        "image": "images/1.png",
+        "image": "i1.png",
         "q": "Question 1 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer A"
     },
     {
-        "image": "images/2.png",
+        "image": "2.png",
         "q": "Question 2 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer B"
     },
     {
-        "image": "images/3.png",
+        "image": "3.png",
         "q": "Question 3 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer C"
     },
     {
-        "image": "images/4.png",
+        "image": "4.png",
         "q": "Question 4 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer A"
     },
     {
-        "image": "images/5.png",
+        "image": "5.png",
         "q": "Question 5 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer B"
     },
     {
-        "image": "images/6.png",
+        "image": "6.png",
         "q": "Question 6 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer C"
     },
     {
-        "image": "images/7.png",
+        "image": "7.png",
         "q": "Question 7 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer A"
     },
     {
-        "image": "images/8.png",
+        "image": "8.png",
         "q": "Question 8 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer B"
     },
     {
-        "image": "images/9.png",
+        "image": "9.png",
         "q": "Question 9 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer C"
     },
     {
-        "image": "images/10.png",
+        "image": "10.png",
         "q": "Question 10 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer A"
@@ -142,3 +142,4 @@ if st.button("Submit Quiz"):
         if st.button("Try Again"):
             st.session_state.clear()
             st.experimental_rerun()
+
