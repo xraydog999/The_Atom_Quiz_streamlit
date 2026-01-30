@@ -13,7 +13,7 @@ st.title("Image‑Based Multiple Choice Quiz")
 
 questions = [
     {
-        "image": "i1.png",
+        "image": "1.png",
         "q": "Question 1 text goes here.",
         "options": ["Answer A", "Answer B", "Answer C"],
         "answer": "Answer A"
@@ -142,4 +142,5 @@ if st.button("Submit Quiz"):
         if st.button("Try Again"):
             st.session_state.clear()
             st.experimental_rerun()
+
 
