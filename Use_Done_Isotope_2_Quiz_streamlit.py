@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Image‑Based Multiple Choice Quiz")
+st.title("Isotopes: Multiple Choice Quiz")
 
 # -----------------------------
 # QUIZ DATA
@@ -123,4 +123,5 @@ if st.button("Submit Quiz"):
         if st.button("Try Again"):
             st.session_state.clear()
             st.experimental_rerun()
+
 
