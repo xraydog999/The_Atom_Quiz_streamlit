@@ -20,7 +20,7 @@ questions = [
     {
         "image": "2.png",
         "q": "An atom contains: 35 protons, 36 electrons, and 45 neutrons. Using the figure above, what are the values of: A, Z, X and n? ",
-        "options": ["80, 35, Br, 1-", "35, 80, Cl, 1+", 80, 35, Br, 0"],
+        "options": ["80, 35, Br, 1-", "35, 80, Cl, 1+", "80, 35, Br, 0"],
         "answer": "Answer B"
     },
     {
@@ -139,3 +139,4 @@ if st.button("Submit Quiz"):
         if st.button("Try Again"):
             st.session_state.clear()
             st.experimental_rerun()
+
