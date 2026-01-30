@@ -8,16 +8,16 @@ st.title("Image‑Based Multiple Choice Quiz")
 # QUIZ DATA
 # -----------------------------
 questions = [
-    {"image": "1.png", "q": "Question 1 text goes here.", "options": ["Answer A", "Answer B", "Answer C"], "answer": "Answer A"},
-    {"image": "2.png", "q": "Question 2 text goes here.", "options": ["Answer A", "Answer B", "Answer C"], "answer": "Answer B"},
-    {"image": "3.png", "q": "Question 3 text goes here.", "options": ["Answer A", "Answer B", "Answer C"], "answer": "Answer C"},
-    {"image": "4.png", "q": "Question 4 text goes here.", "options": ["Answer A", "Answer B", "Answer C"], "answer": "Answer A"},
-    {"image": "5.png", "q": "Question 5 text goes here.", "options": ["Answer A", "Answer B", "Answer C"], "answer": "Answer B"},
-    {"image": "6.png", "q": "Question 6 text goes here.", "options": ["Answer A", "Answer B", "Answer C"], "answer": "Answer C"},
-    {"image": "7.png", "q": "Question 7 text goes here.", "options": ["Answer A", "Answer B", "Answer C"], "answer": "Answer A"},
-    {"image": "8.png", "q": "Question 8 text goes here.", "options": ["Answer A", "Answer B", "Answer C"], "answer": "Answer B"},
-    {"image": "9.png", "q": "Question 9 text goes here.", "options": ["Answer A", "Answer B", "Answer C"], "answer": "Answer C"},
-    {"image": "10.png", "q": "Question 10 text goes here.", "options": ["Answer A", "Answer B", "Answer C"], "answer": "Answer A"},
+    {"image": "1.png", "q": "In the above figure, identify the symbols A, Z, X, and n", "options": ["Mass number, atomic number, chemical symbol, charge.", "Atomic number, mass number, chemical symbol, charge.", "Charge, Mass number, atomic number, chemical symbol."], "answer": "Answer A"},
+    {"image": "2.png", "q": "An atom contains: 35 protons, 36 electrons, and 45 neutrons. Using the figure above, what are the values of: A, Z, X and n?", "options": ["80, 35, Br, 1-", " 35, 80, Cl, 1+", "80, 35, Br, 0"], "answer": "Answer B"},
+    {"image": "3.png", "q": "An atom contains: 8 protons, 8 neutrons, and 2 more electrons than protons. Using the figure above, what are the values of: A, Z, X and n?", "options": ["8, 16, N, 1-", "16, 8, O, 0", "16, 8, O, 2-"], "answer": "Answer C"},
+    {"image": "4.png", "q": "An atom contains: 26 protons, 29 neutrons, and 23 electrons.  Using the figure above, what are the values of: A, Z, X and n?", "options": ["26, 55, Co, 0", "55, 26, Fe, 3", "55, 26, Fe, 3+"], "answer": "Answer A"},
+    {"image": "5.png", "q": "Using the figure above, identify the numbers of neutrons, protons, and electrons. ", "options": ["9, 19, 0", "10, 9, 10", "19, 10, 11"], "answer": "Answer B"},
+    {"image": "6.png", "q": "Using the figure above, identify the numbers of neutrons, protons, and electrons. ", "options": ["20, 19, 18", "19, 20, 19", "19, 39, 20"], "answer": "Answer C"},
+    {"image": "7.png", "q": "Using the figure above, identify the numbers of neutrons, protons, and electrons. ", "options": ["73, 19, 30", "31, 42, 42", "42, 31, 31"], "answer": "Answer A"},
+    {"image": "8.png", "q": "Using the figure above, identify the numbers of neutrons, protons and electrons. ", "options": ["73, 42, 45", "42, 73, 42", "42, 31, 28"], "answer": "Answer B"},
+    {"image": "9.png", "q": "Using the figure above, identify the numbers of neutrons, proton and electrons. ", "options": ["51, 74, 71", "28, 23, 20", "23, 28, 28"], "answer": "Answer C"},
+    {"image": "10.png", "q": "Using the figure above, identify the numbers of neutrons, proton and electrons. ", "options": ["52, 76, 78", "76, 52, 56", "76, 128, 2"], "answer": "Answer A"},
 ]
 
 # -----------------------------
@@ -100,3 +100,4 @@ if st.button("Submit Quiz"):
         if st.button("Try Again"):
             st.session_state.clear()
             st.experimental_rerun()
+
